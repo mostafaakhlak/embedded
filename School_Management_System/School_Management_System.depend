@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1654090743 source:e:\mostafa\embedded diploma nti\projects\c-graduation project\school_management_system\linked list functions.c
+	"LINKED_LIST.h"
+
+1654089904 e:\mostafa\embedded diploma nti\projects\c-graduation project\school_management_system\linked_list.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1654074954 e:\mostafa\embedded diploma nti\projects\c-graduation project\school_management_system\header.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1654093679 source:e:\mostafa\embedded diploma nti\projects\c-graduation project\school_management_system\main.c
+	"HEADER.h"
+
+1654092285 source:e:\mostafa\embedded diploma nti\projects\c-graduation project\school_management_system\functions.c
+	"HEADER.h"
+
