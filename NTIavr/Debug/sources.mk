@@ -28,7 +28,10 @@ Hal/Led \
 Hal/PushButton \
 Hal/Relay \
 Hal/SSD \
+Hal/TempSensor \
 Mcal/ADC \
 Mcal/Dio \
 Mcal/ExtInt \
+Mcal/GIE \
+Mcal/Timer \
 

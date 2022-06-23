@@ -1,7 +1,7 @@
 /*
  * RelayCfg.h
  *
- *  Created on: ??þ/??þ/????
+ *  Created on: ??ï¿½/??ï¿½/????
  *      Author: DELL
  */
 
@@ -9,8 +9,8 @@
 #define HAL_RELAY_RELAYCFG_H_
 
 /*********************************_SELECT_LED_PIN_***************************************/
-#define Relay1_Pin				PC4
-#define Relay2_Pin				PC3
+#define Relay1_Pin				PC4_PIN
+#define Relay2_Pin				PC3_PIN
 
 /*********************************_SELECT_F_CPU_******************************************/
 #define F_CPU					16000000UL

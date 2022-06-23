@@ -12,10 +12,10 @@
 /****************************SELECT_PB_PIIS*********************************/
 #define ACTIVE_LOW							1
 #define ACTIVE_HIGH							2
-#define PUSHBUTTON1_PIN						PD2
-#define PUSHBUTTON2_PIN						PD3
-#define PUSHBUTTON3_PIN						PD4
-#define PUSHBUTTON4_PIN						PD5
+#define PUSHBUTTON1_PIN						PD2_PIN
+#define PUSHBUTTON2_PIN						PD3_PIN
+#define PUSHBUTTON3_PIN						PD4_PIN
+#define PUSHBUTTON4_PIN						PD5_PIN
 
 /**************************SELECT_PB_MODE************************************/
 

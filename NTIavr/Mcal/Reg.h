@@ -11,24 +11,24 @@
 #include"Std.h"
 
 
-#define DDRA	*(volatile u8*)0x3A
-#define PINA	*(volatile u8*)0x39
-#define PORTA	*(volatile u8*)0x3B
+#define DDRA_REG	*(volatile u8*)0x3A
+#define PINA_REG	*(volatile u8*)0x39
+#define PORTA_REG	*(volatile u8*)0x3B
 
 
-#define DDRB	*(volatile u8*)0x37
-#define PINB	*(volatile u8*)0x36
-#define PORTB	*(volatile u8*)0x38
+#define DDRB_REG	*(volatile u8*)0x37
+#define PINB_REG	*(volatile u8*)0x36
+#define PORTB_REG	*(volatile u8*)0x38
 
 
-#define DDRC	*(volatile u8*)0x34
-#define PINC	*(volatile u8*)0x33
-#define PORTC	*(volatile u8*)0x35
+#define DDRC_REG	*(volatile u8*)0x34
+#define PINC_REG	*(volatile u8*)0x33
+#define PORTC_REG	*(volatile u8*)0x35
 
 
-#define DDRD	*(volatile u8*)0x30
-#define PIND	*(volatile u8*)0x30
-#define PORTD	*(volatile u8*)0x31
+#define DDRD_REG	*(volatile u8*)0x30
+#define PIND_REG	*(volatile u8*)0x30
+#define PORTD_REG	*(volatile u8*)0x31
 /*******************************************EXTINT_REGESTERS***************************************************/
 #define MCUCR_REG	*(volatile u8*)0x55
 #define GICR_REG	*(volatile u8*)0x5B
@@ -39,6 +39,17 @@
 #define ADCL_REG	*(volatile u8*)0x24
 #define ADCH_REG	*(volatile u8*)0x25
 #define ADC_REG		*(volatile u16*)0x24
+/*******************************************TIMER0_REGESTERS***************************************************/
+#define TCNT0_REG	*(volatile u8*)0x52
+#define TCCR0_REG	*(volatile u8*)0x53
+#define OCR0_REG	*(volatile u8*)0x5C
+#define TIMSK_REG	*(volatile u8*)0x59
+#define TIFR_REG	*(volatile u8*)0x58
+
+/*******************************************TIMER0_REGESTERS***************************************************/
+#define TCCR1A_REG	*(volatile u8*)0x4F
+#define TCCR1B_REG	*(volatile u8*)0x4E
+#define ICR_REG	*(volatile u16*)0x46
 
 
 #endif /* REG_H_ */

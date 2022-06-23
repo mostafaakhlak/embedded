@@ -6,9 +6,9 @@
  */
 
 #include"ExtInt.h"
-#include"Led.h"
 
-void (*ExtInt_CallBack)(void);				//global pointer to function for ISR
+
+void (*ExtInt_CallBack)(void) = NULL;				//global pointer to function for ISR
 void M_ExtInt_Void_ExtInt0Init()
 {
 #if SENSE_CONTROL == FALLING_EDGE
