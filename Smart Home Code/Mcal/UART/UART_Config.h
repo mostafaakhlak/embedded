@@ -1,0 +1,48 @@
+/*
+ * UART_Config.h
+ *
+ *  Created on: Jun 26, 2022
+ *      Author: musta
+ */
+
+#ifndef MCAL_UART_UART_CONFIG_H_
+#define MCAL_UART_UART_CONFIG_H_
+
+/*
+ * choose data bits:
+ *  UART_DATA_BITS:
+ *  UART_DATA_BITS_5
+ *  UART_DATA_BITS_6
+ *  UART_DATA_BITS_7
+ *  UART_DATA_BITS_8
+ *
+ */
+#define UART_DATA_BITS  UART_DATA_BITS_8
+
+/*
+ * choose parity :
+ *   UART_PARITY_MODE_DISABLED
+ *   UART_PARITY_MODE_EVEN
+ *   UART_PARITY_MODE_ODD
+ */
+#define UART_PARITY_MODE   UART_PARITY_MODE_DISABLED
+
+/*
+ * choose stop bits :
+ * UART_STOP_BITS_1
+ * UART_STOP_BITS_2
+ */
+#define UART_STOP_BITS  UART_STOP_BITS_1
+
+/*
+ *  UART_BAUD_RATE_8MHZ_2400
+ *  UART_BAUD_RATE_8MHZ_9600
+ *  UART_BAUD_RATE_8MHZ_115200
+ *
+ *  UART_BAUD_RATE_16MHZ_2400
+ *  UART_BAUD_RATE_16MHZ_9600
+ *  UART_BAUD_RATE_16MHZ_115200
+ */
+#define UART_BAUD_RATE    UART_BAUD_RATE_8MHZ_9600
+
+#endif /* MCAL_UART_UART_CONFIG_H_ */

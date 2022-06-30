@@ -1,0 +1,36 @@
+/*
+ * UART_Private.h
+ *
+ *  Created on: Jun 26, 2022
+ *      Author: musta
+ */
+
+#ifndef MCAL_UART_UART_PRIVATE_H_
+#define MCAL_UART_UART_PRIVATE_H_
+
+#define  UART_DATA_BITS_5  0
+#define  UART_DATA_BITS_6  1
+#define  UART_DATA_BITS_7  2
+#define  UART_DATA_BITS_8  3
+
+#define UART_DATA_BITS_MASK 0b11111001
+
+#define  UART_PARITY_MODE_DISABLED  0
+#define  UART_PARITY_MODE_EVEN      2
+#define  UART_PARITY_MODE_ODD       3
+
+#define UART_PARITY_MASK  0b11001111
+
+#define UART_STOP_BITS_1  0
+#define UART_STOP_BITS_2  1
+
+//UART Baud Rates
+#define  UART_BAUD_RATE_8MHZ_2400   207
+#define  UART_BAUD_RATE_8MHZ_9600   51
+#define  UART_BAUD_RATE_8MHZ_115200  3
+
+#define UART_BAUD_RATE_16MHZ_2400    416
+#define  UART_BAUD_RATE_16MHZ_9600   103
+#define UART_BAUD_RATE_16MHZ_115200   8
+
+#endif /* MCAL_UART_UART_PRIVATE_H_ */
